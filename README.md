@@ -2,7 +2,7 @@
 
 <center><img src="https://user-images.githubusercontent.com/59910975/136140737-3875ed24-af2b-4707-8526-7d7f8d3431dc.png" width="80%" height="80%"></center>
 
-* 본 레포의 코드는 전체 프로세스의 일부만 떼어내 리팩토링한 것으로, 전체 Platform은 동작하지 않음을 밝힙니다.
+* 본 저장소의 코드는 전체 프로세스의 일부만 떼어내 리팩토링한 것으로, 전체 Platform은 동작하지 않음을 밝힙니다.
 * Django backend에서 Kubeflow API를 통해 사용자의 요청에 따라 Kubernetes Pod를 생성합니다.
 * AI Platform은 위와 같은 프로세스로 진행됩니다.
 
