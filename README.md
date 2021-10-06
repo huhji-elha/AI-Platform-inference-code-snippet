@@ -1,9 +1,12 @@
 # ML inference code snippet with kubeflow
-* 본 레포의 코드는 전체 프로세스의 일부만 떼어내 리팩토링한 것으로, 전체 Platform은 동작하지 않음을 밝힙니다.
-* Django backend에서 Kubeflow API를 통해 사용자의 요청에 따라 Kubernetes Pod를 생성합니다.
-* AI Platform은 다음과 같은 프로세스로 진행됩니다.
 
 ![](https://user-images.githubusercontent.com/59910975/136140737-3875ed24-af2b-4707-8526-7d7f8d3431dc.png)
+
+
+* 본 레포의 코드는 전체 프로세스의 일부만 떼어내 리팩토링한 것으로, 전체 Platform은 동작하지 않음을 밝힙니다.
+* Django backend에서 Kubeflow API를 통해 사용자의 요청에 따라 Kubernetes Pod를 생성합니다.
+* AI Platform은 위와 같은 프로세스로 진행됩니다.
+
 
 ## 프로젝트의 목적
 * 사용자가 코드 없이 클릭만으로 인공지능을 학습하는 플랫폼 개발을 목표로 합니다.
